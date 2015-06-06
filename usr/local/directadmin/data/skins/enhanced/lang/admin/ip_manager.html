@@ -1,0 +1,16 @@
+LANG_IP_MANAGER=IP beheer
+LANG_ADD_IP=IP adres toevoegen
+LANG_NETMASK=Netmask
+LANG_IPV6_MASK=Voor IPv6 IPs, gebruik een /mask, bijvoorbeeld: /64
+LANG_DETAILS_FOR=Details voor
+LANG_STATUS=Status
+LANG_NETMASK=Netmask
+LANG_USER_VALUE=Gebruiker(s)
+LANG_NAMESERVER=Nameserver
+LANG_IP_PURPOSE=Het hoofddoel van deze feature is om LAN IP adressen aan externe IP adressen te linken,<br>en/of om IPv6 naar IPv4 adressen te linken.
+LANG_LAN_EXPLANATION=<b>LAN</b>: Bekijk de details van het externe IP adres. Link het interne IP adres aan het externe IP adres.<br>Selecteer enkel Apache, selecteer niet DNS. Voeg gebruikers toe aan extern IP adres.
+LANG_IPV6_EXPLANATION=<b>IPv6</b>: Bekijk de details van het IPv4 IP adres. Link het IPv6 adres aan het IPv4 adres. Vink zowel DNS als Apache aan.
+LANG_LINK_OPTIONS_EXPLANATION=Het toevoegen van een gekoppeld IP adres aan het huidige IP adres zal de gekoppelde IP adres toevoegen aan het gebied waar het momentele IP adres bestaat.<br>Koppelen van een IP adres met DNS zal de A/AAAA records dupliceren voor het huidige IP adres met het gekoppelde IP adres.<br>Koppelen van een IP adres met Apache zal het gekoppelde IP adres toevoegen aan de VirtualHost met het huidige IP adres.
+LANG_MULTI_IP_RELATION=Deze feature is afhankelijk van het multi-IP systeem, maar kunnen tegelijkertijd gebruikt worden.<br>Zo kan bijvoorbeeld een gebruikt 2 IP adressen hebben met het multi IP systeem, en elk IP adres kan zijn eigen gekoppelde IP adressen hebben.
+LANG_LINK_NOT_RECURSIVE=Links zijn niet recursief, er zal dus geen oneindige lus ontstaan.
+LANG_APPLY_TO_DOMAINS=De "Pas toe op bestaande domeinen" optie zal de http.config rewrites triggeren, en A/AAAA records toevoegen aan de huidige lokale DNS zones.<br>Het uitschakelen van deze checkbox zal ervoor zorgen dat de http.conf bestanden en DNS instellingen niet worden aangepast, maar toekomstige httpd.conf rewrites zullen het gekoppelde IP adres bevatten.
